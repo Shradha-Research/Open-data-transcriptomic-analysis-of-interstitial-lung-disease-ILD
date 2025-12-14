@@ -15,16 +15,16 @@ Analysis overview
 The analysis was conducted in R as a self-directed learning project focused on understanding transcriptomic data structure, statistical reasoning, and biological interpretation.
 
 Key steps included:
-Extracting expression matrices and sample metadata using GEOquery
-Subsetting samples to compare ILD and control groups
-Performing differential expression analysis using the limma framework
-Applying multiple-testing correction using false discovery rate (FDR)
+Extracting expression matrices and sample metadata using GEOquery;
+Subsetting samples to compare ILD and control groups;
+Performing differential expression analysis using the limma framework;
+Applying multiple-testing correction using false discovery rate (FDR);
 Visualizing results using a volcano plot and a heatmap of top differentially expressed genes
 
 Parameter choices
 To focus on biologically interpretable changes while accounting for the heterogeneity of human lung tissue, results were filtered using:
-FDR < 0.05 to control for multiple testing
-|logFC| > 0.25 as a moderate effect-size threshold, reflecting the expectation of subtle but consistent expression changes rather than large single-gene effects
+FDR < 0.05 to control for multiple testing;
+|logFC| > 0.25 as a moderate effect-size threshold, reflecting the expectation of subtle but consistent expression changes rather than large single-gene effects;
 Expression values were scaled by gene for heatmap visualization to emphasize relative differences across samples rather than absolute expression levels.
 
 Key observations

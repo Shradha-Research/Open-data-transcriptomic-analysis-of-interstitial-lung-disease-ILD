@@ -38,6 +38,20 @@ A key challenge during this project was ensuring correct alignment between the e
 Overall, this project emphasized the importance of pathway-level interpretation over single-gene focus when analyzing heterogeneous human tissue data.
 
 Files
-analysis_clean.R – reproducible analysis script
-volcano_ILD_vs_Control.pdf – volcano plot visualization
-heatmap_top25_DEGs.pdf – heatmap of top differentially expressed genes
+
+Scripts
+- `project1_ILD_limma_clean.R`: Differential expression analysis using limma
+- `extract_project1_gene_list.R`: Extracts final gene-level DEG list for downstream pathway analysis
+
+Results
+`project1_DEGs_filtered.csv`  
+  Final gene-level list of differentially expressed genes (ILD vs Control),
+  filtered by adjusted p-value < 0.05 and effect size threshold.
+  This file is used as input for Project 2 (pathway enrichment analysis)
+
+Figures
+- `volcano_ILD_vs_Control.pdf`  
+  Volcano plot visualising differential expression results.
+
+- `heatmap_top25_DEGs.pdf`  
+  Heatmap of the top 25 differentially expressed genes across samples.

@@ -1,9 +1,9 @@
-Project 2: Pathway-level interpretation of interstitial lung disease (ILD)
-Background
+# Project 2: Pathway-level interpretation of interstitial lung disease (ILD)
+## Background
 
 Interstitial lung disease (ILD) is associated with heterogeneous transcriptional changes reflecting immune activation, tissue injury, and progressive remodeling of lung tissue. While gene-level differential expression analysis identifies individual genes associated with disease, pathway-level interpretation helps contextualize these changes in terms of broader physiological processes relevant to ILD pathology.
 
-Dataset
+## Dataset
 
 This project uses the same publicly available microarray dataset analysed in Project 1:
 
@@ -17,7 +17,7 @@ Tissue: Human lung tissue
 
 The input for this project is the final list of differentially expressed genes derived from Project 1.
 
-Analysis overview
+## Analysis overview
 
 This analysis was conducted in R as a follow-up self-directed learning project focused on extending gene-level differential expression results to pathway-level biological interpretation.
 
@@ -39,19 +39,19 @@ GO Biological Process enrichment was selected to focus on broad, physiology-rele
 
 An over-representation analysis framework was used because it aligns naturally with a filtered differential expression gene list and is appropriate for an initial pathway-level learning project.
 
-Key observations
+## Key observations
 
 GO enrichment analysis identified multiple biological processes over-represented among ILD-associated genes. Prominent themes included immune and inflammatory processes such as leukocyte migration and chemotaxis, alongside extracellular matrix organization, wound healing, and epithelial remodeling.
 
 These patterns are consistent with known features of ILD biology, where immune cell recruitment and chronic tissue injury coexist with progressive fibrotic remodeling of lung tissue.
 
-Notes and reflections
+## Notes and reflections
 
 Of the 579 differentially expressed genes identified in Project 1, 517 could be successfully mapped to standardized Entrez Gene identifiers for enrichment analysis. Some loss of genes during this step is expected and reflects limitations of gene annotation coverage. In addition, Gene Ontology terms are partially redundant and overlapping, requiring interpretation at the level of broader biological themes rather than individual terms.
 
 Compared with Project 1, which focused on identifying statistically significant gene-level changes, this analysis helped clarify how many of those changes converge on a smaller number of recurring immune and tissue-remodeling processes relevant to ILD.
 
-Files
+## Files
 
 Scripts
 

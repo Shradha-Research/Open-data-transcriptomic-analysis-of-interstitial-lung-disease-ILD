@@ -72,15 +72,13 @@ single-gene focus when analyzing heterogeneous human tissue data.
   Extracts the final gene-level DEG list for downstream pathway analysis
 
 ### Results
+- `project1_DEGs_filtered.csv`  
+  Final gene-level list of differentially expressed genes (ILD vs control), filtered by
+  adjusted p-value < 0.05 and effect size threshold.  
+  This file is used as input for **Project 2 (pathway enrichment analysis)**
 - `volcano_ILD_vs_Control.pdf`  
   Volcano plot visualising differential expression results
 - `heatmap_top25_DEGs.pdf`
   Heatmap of the top 25 differentially expressed genes across samples
   
-  `project1_DEGs_filtered.csv`  
-  Final gene-level list of differentially expressed genes (ILD vs control), filtered by
-  adjusted p-value < 0.05 and effect size threshold.  
-  This file is used as input for **Project 2 (pathway enrichment analysis)**.
 
-- `heatmap_top25_DEGs.pdf`  
-  Heatmap of the top 25 differentially expressed genes across samples

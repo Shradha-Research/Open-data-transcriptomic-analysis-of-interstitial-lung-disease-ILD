@@ -6,7 +6,8 @@
 # ============================================================
 
 # Set working directory (adjust if needed)
-setwd("C:/Users/shrad/OneDrive/Desktop/Bioinformatics project/IPF/Data")
+# Assumes script is run from the Project 1 directory
+# (e.g., via RStudio Project or setwd() by the user)
 
 # Load libraries
 library(GEOquery)
@@ -63,7 +64,7 @@ results_annot <- merge(
 deg_filtered <- results_annot %>%
   filter(
     adj.P.Val < 0.05,
-    abs(logFC) >= 1,
+    abs(logFC) >= 0.25,
     GENE_SYMBOL != ""
   ) %>%
   distinct(GENE_SYMBOL, .keep_all = TRUE)
@@ -86,4 +87,5 @@ write.csv(
 # Sanity check
 nrow(gene_list)
 head(gene_list)
+
 

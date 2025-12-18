@@ -55,7 +55,7 @@ Compared with Project 1, which focused on identifying statistically significant 
 
 ### Scripts
 
-project2_GO_enrichment.R
+`project2_GO_enrichment.R`
 Performs GO Biological Process enrichment analysis using the gene list derived from Project 1
 
 ### Results

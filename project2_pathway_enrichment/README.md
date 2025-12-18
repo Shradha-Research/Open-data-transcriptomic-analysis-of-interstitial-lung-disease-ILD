@@ -60,8 +60,8 @@ Performs GO Biological Process enrichment analysis using the gene list derived f
 
 ### Results
 
-GO_BP_enrichment_results.csv
+`GO_BP_enrichment_results.csv`
 Full table of enriched GO Biological Processes
 
-GO_BP_dotplot.pdf
+`GO_BP_dotplot.pdf`
 Visualization of representative enriched biological processes

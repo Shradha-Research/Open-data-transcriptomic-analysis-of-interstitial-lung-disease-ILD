@@ -53,12 +53,12 @@ Compared with Project 1, which focused on identifying statistically significant 
 
 ## Files
 
-Scripts
+### Scripts
 
 project2_GO_enrichment.R
 Performs GO Biological Process enrichment analysis using the gene list derived from Project 1
 
-Results
+### Results
 
 GO_BP_enrichment_results.csv
 Full table of enriched GO Biological Processes
